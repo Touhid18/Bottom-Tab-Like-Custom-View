@@ -62,7 +62,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener, I
 		btnReward.setOnClickListener(this);
 		btnAddPost.setOnClickListener(this);
 		btnMore.setOnClickListener(this);
-
 	}
 
 	@Override
@@ -130,7 +129,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener, I
 		btnAddPost.setTextColor(Color.BLACK);
 		btnMore.setTextColor(Color.BLACK);
 		llBottomTabHoolder.setBackgroundColor(Color.argb(220, 0, 255, 50));
-
 	}
 
 	private void setRewardTabPressed() {
